@@ -6,6 +6,14 @@ A three-model reproduction of the Hugging Face Open ASR Leaderboard on an AMI-Cl
 
 Read [REPORT.md](REPORT.md) for the integrated findings, [PERFORMANCE.md](PERFORMANCE.md) for the four-score analysis, with the student-project assessment retained locally in `STUDENT_EXERCISE.md` (excluded from Git). [REPRODUCIBILITY.md](REPRODUCIBILITY.md) records what has and has not been verified. The exclusion-list sensitivity experiment and a clean reproduction run are deferred.
 
+**Brief Description:** We investigated how to choose a speech-to-text model for searching recorded meetings, using a public Hugging Face leaderboard (https://huggingface.co/spaces/hf-audio/open_asr_leaderboard) as our starting point. We tested three openly available models—Whisper large-v3, Whisper large-v3-turbo, and NVIDIA Parakeet—on the same 800 meeting-audio clips, totaling about 50 minutes. Parakeet made substantially fewer transcription errors in this sample; the smaller difference between the two Whisper models was less conclusive.
+
+With the application of enabling search and information retrieval in mind, we then experimented with a modified normalization method which aggressively stems words to reduce penalties related to morphological mismatches. We also developed a domain-specific variation of WER to weigh mistakes on terms particularly relevant to this dataset higher than those on common terms using a form of Wikipedia as a backdrop.
+
+Finally, we conduct some basic analysis of results on various subsets of the data, split on metadata categories. Results are provided in the "PERFORMANCE.md" file.
+
+See the "REPORT.md" file for a final discussion and reporting of results.
+
 ## Contents
 
 | Location | Purpose |
