@@ -1,0 +1,131 @@
+{
+  "rules_version": "ami-compounds-v1",
+  "rules_sha256": "dfed605d0a5a2ef4529287479f68b130201943833093d96ba1b335f385dd9bec",
+  "manifest_sha256": "a8583c2d3d33ad9c999a0ebebbcc67b8a8769e8bebb7e09b9cc2697fa2c2af37",
+  "rules_count": 42,
+  "models": {
+    "whisper-large-v3": {
+      "predictions_sha256": "55b291712a5fb5e1fafea7906f103601e3df554c564f056f16cb99900ab7ec31",
+      "variants": {
+        "upstream_token_alignment": {
+          "ins": 138,
+          "sub": 365,
+          "del_": 762,
+          "reference_words": 8584,
+          "wer_percent": 14.736719478098788,
+          "changed_reference_clips": 0,
+          "changed_prediction_clips": 0
+        },
+        "upstream_compound_alignment": {
+          "ins": 135,
+          "sub": 346,
+          "del_": 749,
+          "reference_words": 8584,
+          "wer_percent": 14.328984156570364,
+          "changed_reference_clips": 0,
+          "changed_prediction_clips": 0
+        },
+        "custom_token_alignment": {
+          "ins": 138,
+          "sub": 364,
+          "del_": 761,
+          "reference_words": 8583,
+          "wer_percent": 14.71513456833275,
+          "changed_reference_clips": 1,
+          "changed_prediction_clips": 0
+        },
+        "custom_compound_alignment": {
+          "ins": 135,
+          "sub": 346,
+          "del_": 749,
+          "reference_words": 8583,
+          "wer_percent": 14.330653617616218,
+          "changed_reference_clips": 1,
+          "changed_prediction_clips": 0
+        }
+      }
+    },
+    "whisper-large-v3-turbo": {
+      "predictions_sha256": "283dda2983e7d658e62eed46ffd40088f48f59d85f00e859083258ed47078f4f",
+      "variants": {
+        "upstream_token_alignment": {
+          "ins": 159,
+          "sub": 354,
+          "del_": 796,
+          "reference_words": 8584,
+          "wer_percent": 15.249301025163094,
+          "changed_reference_clips": 0,
+          "changed_prediction_clips": 0
+        },
+        "upstream_compound_alignment": {
+          "ins": 154,
+          "sub": 337,
+          "del_": 784,
+          "reference_words": 8584,
+          "wer_percent": 14.853215284249767,
+          "changed_reference_clips": 0,
+          "changed_prediction_clips": 0
+        },
+        "custom_token_alignment": {
+          "ins": 159,
+          "sub": 353,
+          "del_": 795,
+          "reference_words": 8583,
+          "wer_percent": 15.227775835954795,
+          "changed_reference_clips": 1,
+          "changed_prediction_clips": 0
+        },
+        "custom_compound_alignment": {
+          "ins": 154,
+          "sub": 337,
+          "del_": 784,
+          "reference_words": 8583,
+          "wer_percent": 14.854945823138763,
+          "changed_reference_clips": 1,
+          "changed_prediction_clips": 0
+        }
+      }
+    },
+    "parakeet": {
+      "predictions_sha256": "92ddeb3e1de5906a6d344f779ff0510f68b91900ff76d6209623b99badb7f94a",
+      "variants": {
+        "upstream_token_alignment": {
+          "ins": 214,
+          "sub": 367,
+          "del_": 247,
+          "reference_words": 8584,
+          "wer_percent": 9.645852749301024,
+          "changed_reference_clips": 0,
+          "changed_prediction_clips": 0
+        },
+        "upstream_compound_alignment": {
+          "ins": 211,
+          "sub": 347,
+          "del_": 233,
+          "reference_words": 8584,
+          "wer_percent": 9.214818266542405,
+          "changed_reference_clips": 0,
+          "changed_prediction_clips": 0
+        },
+        "custom_token_alignment": {
+          "ins": 214,
+          "sub": 366,
+          "del_": 246,
+          "reference_words": 8583,
+          "wer_percent": 9.623674705813817,
+          "changed_reference_clips": 1,
+          "changed_prediction_clips": 0
+        },
+        "custom_compound_alignment": {
+          "ins": 211,
+          "sub": 347,
+          "del_": 233,
+          "reference_words": 8583,
+          "wer_percent": 9.215891879296283,
+          "changed_reference_clips": 1,
+          "changed_prediction_clips": 0
+        }
+      }
+    }
+  }
+}

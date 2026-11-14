@@ -1,0 +1,32 @@
+# Local application configuration and credentials
+/.aws/
+/.codex/
+/.agents/
+.env
+.env.*
+# Environments, models, upstream checkouts, audio and generated data
+/normExp*Env/
+/.python/
+/open_asr_leaderboard/
+/data/
+# Most runs remain local. Keep the compact pilot summaries reviewable.
+/results/*
+!/results/pilot/
+/results/pilot/*
+!/results/pilot/20261114T195638016516Z/
+/results/pilot/20261114T195638016516Z/*
+!/results/pilot/20261114T195638016516Z/*.json
+!/results/pilot/20261114T195638016516Z/*.csv
+!/results/pilot/20261114T195638016516Z/*.md
+# The public, text-only replay bundle is deliberately versioned under artifacts/.
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.wav
+*.nemo
+*.safetensors
+*.engine
+*.partial
+# Historical prompt/discussion is retained locally; report documents AI use.
+/solution
+

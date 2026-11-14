@@ -1,0 +1,4 @@
+# Preserve frozen generated evidence byte-for-byte. CSVs use the writer's CRLF;
+# generated Markdown may contain an extra final blank line.
+results/** -text whitespace=cr-at-eol,-blank-at-eof
+artifacts/*.tar.gz -text

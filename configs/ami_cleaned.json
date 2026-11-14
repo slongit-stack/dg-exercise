@@ -1,0 +1,17 @@
+{
+  "dataset_repo": "hf-audio/open-asr-leaderboard",
+  "dataset_revision": "de79e57adf9983993bcc72586d7313460825f5eb",
+  "dataset_config": "ami_cleaned",
+  "split": "test",
+  "scoring_repository_revision": "c21a412f2dd7cbe3af658d69fbf3d0dd536a264e",
+  "evaluation_manifest": "data/leaderboard/ami_cleaned/manifest_test.jsonl",
+  "smoke_manifest": "data/leaderboard/ami_cleaned/manifest_smoke.jsonl",
+  "pilot_manifest": "data/leaderboard/ami_cleaned/manifest_pilot.jsonl",
+  "pilot_selection_report": "data/leaderboard/ami_cleaned/pilot_selection.json",
+  "raw_manifest": "data/leaderboard/ami_cleaned/manifest_all.jsonl",
+  "reference_column": "text",
+  "sample_rate": 16000,
+  "development_data": null,
+  "selection": "Full eligible test split is the primary evaluation; smoke checks compatibility and the frozen 800-example stratified pilot estimates runtime and preliminary accuracy.",
+  "historical_leaderboard_revision_match_verified": false
+}

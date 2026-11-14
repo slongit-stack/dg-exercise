@@ -1,0 +1,4 @@
+# English normalization/alignment dependencies for the local leaderboard checkout.
+regex==2026.9.29
+kaldialign==0.12.0
+snowballstemmer==3.0.1

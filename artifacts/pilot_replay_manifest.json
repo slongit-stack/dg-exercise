@@ -1,0 +1,308 @@
+{
+  "format_version": 1,
+  "archive": "pilot_replay_inputs.tar.gz",
+  "archive_sha256": "b04005753cad5050f8c6a37f035c4f1e4af4b4604d385901d203c916bdd0d019",
+  "purpose": "Public text-only CPU replay inputs and saved results; no waveforms, model weights, credentials, or application settings.",
+  "files": [
+    {
+      "path": "data/00README_MANUAL.txt",
+      "bytes": 2394,
+      "sha256": "001292e9082f0f403a155dd5e7e4a8d5ac6542dbf37b19a12c7b6030fabdd350"
+    },
+    {
+      "path": "data/CCBY4.0.txt",
+      "bytes": 17026,
+      "sha256": "511b44e9dcdbb4a6492efd45ee1171a102e24ccd20bd51377f63fcda6b7fc14f"
+    },
+    {
+      "path": "data/LICENCE.txt",
+      "bytes": 13197,
+      "sha256": "d52fd9c7c19eec9f0bec3107554c10937203e261259d73b01637a61501fec7f7"
+    },
+    {
+      "path": "data/background/brown/README",
+      "bytes": 387,
+      "sha256": "2c00449b1372f54448b9291036e6e919f6488382837c258fb006f7332a429125"
+    },
+    {
+      "path": "data/background/brown/brown.zip",
+      "bytes": 3314357,
+      "sha256": "9b275f9b3b95d7bd66ccfb7cd259f445a13bbe5d1f4107aba09fd3e8364bafa6"
+    },
+    {
+      "path": "data/background/brown/provenance.json",
+      "bytes": 440,
+      "sha256": "3f3037dbe419dff0d410e32620d7f811c57d168ea9205aed27ad51639b8ba335"
+    },
+    {
+      "path": "data/corpusResources/meetings.xml",
+      "bytes": 119064,
+      "sha256": "8ab6cdcf03ed863e839418f31c7380392397a2eed892d73b9bc1b438c7ec520a"
+    },
+    {
+      "path": "data/development/compounds/candidates.json",
+      "bytes": 448788,
+      "sha256": "023bc47945763dadde03ae382180e23bd80aec9331df69055ce31373d6d3d2e4"
+    },
+    {
+      "path": "data/development/compounds/lexicon_COPYRIGHT",
+      "bytes": 4577,
+      "sha256": "91659750a0e32efdc83de917f3012cff154e1fefabacf48228bb4993becda8d7"
+    },
+    {
+      "path": "data/development/compounds/lexicon_source.dict",
+      "bytes": 3272051,
+      "sha256": "9de99dd2a24b63c653c1c30ab39388d05185cae36d0875f15c319b4ad6dc43af"
+    },
+    {
+      "path": "data/development/compounds/provenance.json",
+      "bytes": 44457,
+      "sha256": "fa10c61aae11ece5552ccfefb790cfb15fd23b649c41fdb1f5f261874b73e439"
+    },
+    {
+      "path": "data/development/compounds/stemming_audit.json",
+      "bytes": 325213,
+      "sha256": "641b3fa4bb6a79947a4d1c86e4a6553e87532e8c0a0767ddd024ed760088de1e"
+    },
+    {
+      "path": "data/development/compounds/transcripts.jsonl",
+      "bytes": 11791389,
+      "sha256": "de8490601af1139a94eb6648574da4899392bd484165ed2f7329e2643b9e0bd1"
+    },
+    {
+      "path": "data/development/domain_metric/stemmed_weights.json",
+      "bytes": 243410,
+      "sha256": "999ce41c8b97c6134f4d9f7aa9dfd15ccb206a1b2e8f7e256847f9bdf8121405"
+    },
+    {
+      "path": "data/development/domain_metric/upstream_weights.json",
+      "bytes": 375836,
+      "sha256": "057b5aa4fe0c8f1838d353bd1cd4c71b5f2b12adb9e00ae2db0cb66c8392e51d"
+    },
+    {
+      "path": "data/leaderboard/ami_cleaned/manifest_pilot.jsonl",
+      "bytes": 941593,
+      "sha256": "a8583c2d3d33ad9c999a0ebebbcc67b8a8769e8bebb7e09b9cc2697fa2c2af37"
+    },
+    {
+      "path": "data/leaderboard/ami_cleaned/pilot_selection.json",
+      "bytes": 9905,
+      "sha256": "a2b4f079e1ff47f251a760666d25fab542de1e48e694b5904db7fdc16f35a973"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/compound_analysis.json",
+      "bytes": 4035,
+      "sha256": "0a5fe225ad742090352bc126d9f9f2f67e2a49f4e9ccf58256281d27ea5b51ea"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/configuration.json",
+      "bytes": 40135,
+      "sha256": "72c8076b12bffe4040e09a6ffe02e31a07d506f008b9ad16b093991c30a1ebbb"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/domain_metric_analysis.json",
+      "bytes": 32010,
+      "sha256": "a0f0a893237218df507e8ef883f9fd3ea538cfc04ddacb75672b8da6f59e07de"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/parakeet/characterization_clip_counts.jsonl",
+      "bytes": 993232,
+      "sha256": "455ffa28f3a22f593cf7b97cb373ae30285a2b608428611da218bb5196a0e2db"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/parakeet/command.json",
+      "bytes": 1002,
+      "sha256": "500d2151e7a2020ad9fe560f508266984fc1367cbc0c7e8019d08910db84f0de"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/parakeet/compound_changed_clips.json",
+      "bytes": 903,
+      "sha256": "4924195ede2fd22fcdd4ed0982f006348cef7f7474437f99d49e078d6b322985"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/parakeet/domain_metric_clip_counts.jsonl",
+      "bytes": 582677,
+      "sha256": "9d5f4a86284cc88b5fc84dc9423594d2a9d4fd33feb5ae8a7f769c477656e9d9"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/parakeet/gpu_samples.csv",
+      "bytes": 667,
+      "sha256": "974f72b46266c340c3d25056f4fed8f914a2958bd12474641e928e3145afbac7"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/parakeet/packages.json",
+      "bytes": 3628,
+      "sha256": "d50d4554f050e041296ab89a491b5f890e8244905a124629bbc509f8299ad9f4"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/parakeet/results/MODEL_nvidia-parakeet-tdt-0.6b-v3 (fast-gpu-asr)_DATASET_-home-sclynch-projects-normExperiment-data-leaderboard-ami_cleaned-hf_pilot_ami_cleaned_test.jsonl",
+      "bytes": 196166,
+      "sha256": "92ddeb3e1de5906a6d344f779ff0510f68b91900ff76d6209623b99badb7f94a"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/parakeet/results/MODEL_nvidia-parakeet-tdt-0.6b-v3 (fast-gpu-asr)_DATASET_-home-sclynch-projects-normExperiment-data-leaderboard-ami_cleaned-hf_pilot_ami_cleaned_test.metadata.json",
+      "bytes": 1890,
+      "sha256": "e965637ca6f697dfd8f58914a69dfb8106286475ba0d5660c4b74c055be23f2f"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/parakeet/status.json",
+      "bytes": 75,
+      "sha256": "7ce218a2ad0298f76eebe73b81222054fcf685fbf47c4d8ca2e55e6f96409654"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/parakeet/stemming_clip_audit.jsonl",
+      "bytes": 725533,
+      "sha256": "c467e103aa77465fbc3eb6cffc5cf4e41a4a14d85262a9a14893ebdd590bf2f3"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/parakeet/verified_score.json",
+      "bytes": 517,
+      "sha256": "47dd275cd489559081c0899718746060b75ee108b9b95cbbc1dbfab1e2bda74c"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/performance_characterization.csv",
+      "bytes": 147742,
+      "sha256": "777155199696d6dba52d93ce0fbbfdfb5233ae82d7b525ce22f3f90e1e42cb90"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/performance_characterization.json",
+      "bytes": 364315,
+      "sha256": "ee00e1bca73b779ecc721a5f1c1e3186a4fd72bc943eb43a81a2b00b985318f1"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/performance_characterization.md",
+      "bytes": 6077,
+      "sha256": "8a34f4b4166c7a570c8fcedfa8c42ec4c9122ce9139a5d007c94bfaf2d9eb097"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/performance_four_metrics.csv",
+      "bytes": 82363,
+      "sha256": "b24135b42ff095e3e90f91ac52ebc62f20394814c6794c8c2d4c45cf503add86"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/performance_four_metrics.md",
+      "bytes": 15960,
+      "sha256": "31002f56975d69fc8eae67a0c612ab3514c316c36ec42eeb84a2f7f06e3bb63f"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/stemming_analysis.json",
+      "bytes": 4575,
+      "sha256": "2f400e694d3ee9bdfe8e173ce45b0116bb0245d2f179b8cc2df01bf7daf887cd"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/summary.json",
+      "bytes": 79173,
+      "sha256": "784c5999d9ff9c28ca2b155d9055f57700a54fe4bcef364beea279e42736a515"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/uncertainty.json",
+      "bytes": 6778,
+      "sha256": "beec9b314f4275dac1dd067b9a972682f3aeeb94b08c3a69e517553514a18ba6"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/utterance_error_counts.jsonl",
+      "bytes": 185203,
+      "sha256": "9c58f7646d7183f910d63c57ff006521e56c7a4931895862a17f4a9886abe069"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/whisper-large-v3-turbo/characterization_clip_counts.jsonl",
+      "bytes": 994415,
+      "sha256": "f8111736da7fba44162e1e0b042324a23cc7eeec19e35dd404bfe0a5f0e66ab8"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/whisper-large-v3-turbo/command.json",
+      "bytes": 570,
+      "sha256": "acc2ccef0d80026993988dbfacc414075926cc29cf635eadfa1569c3aa85dd54"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/whisper-large-v3-turbo/compound_changed_clips.json",
+      "bytes": 873,
+      "sha256": "e718b90ef6015a98e178eee84f00a8736901a4683dcbe69bb0fe4b7cceb30cb3"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/whisper-large-v3-turbo/domain_metric_clip_counts.jsonl",
+      "bytes": 583747,
+      "sha256": "2dc6da40d4112a33293cbc879e753ccd77f9ca74756e20afa4787c299c4ad15a"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/whisper-large-v3-turbo/gpu_samples.csv",
+      "bytes": 3531,
+      "sha256": "f2a6c05b83dcbbee14dcf430983527533645d564707bce0b95158be2692fbb68"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/whisper-large-v3-turbo/packages.json",
+      "bytes": 4624,
+      "sha256": "7473166a2d101a3683461333fe7133ff6ac510de9e417fdb02772312a9e4dd55"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/whisper-large-v3-turbo/results/MODEL_openai-whisper-large-v3-turbo_DATASET_-home-sclynch-projects-normExperiment-data-leaderboard-ami_cleaned-hf_pilot_ami_cleaned_test.jsonl",
+      "bytes": 193157,
+      "sha256": "283dda2983e7d658e62eed46ffd40088f48f59d85f00e859083258ed47078f4f"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/whisper-large-v3-turbo/status.json",
+      "bytes": 75,
+      "sha256": "bbf2196a131560e3dadf1dbb6f1147696ad58d773137a8f51e47505dab3d2384"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/whisper-large-v3-turbo/stemming_clip_audit.jsonl",
+      "bytes": 716712,
+      "sha256": "8cc2e49d02ce8728f47402452b7977bbe36a95d2bf033cef4ea886968d4d9a66"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/whisper-large-v3-turbo/verified_score.json",
+      "bytes": 517,
+      "sha256": "6e5913fa9ba573d8edac3b0c657101baba3695d72c4302acd3226c4a6a86b1da"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/whisper-large-v3/characterization_clip_counts.jsonl",
+      "bytes": 994296,
+      "sha256": "64c9edef1a7b6ab907659506e9bc37f5baa1d542421efd0b6558fd7f151181fe"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/whisper-large-v3/command.json",
+      "bytes": 564,
+      "sha256": "74190887f3be45b3b66e91b86a973fa97c105d07f604385993146553163dfd04"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/whisper-large-v3/compound_changed_clips.json",
+      "bytes": 873,
+      "sha256": "e718b90ef6015a98e178eee84f00a8736901a4683dcbe69bb0fe4b7cceb30cb3"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/whisper-large-v3/domain_metric_clip_counts.jsonl",
+      "bytes": 583633,
+      "sha256": "68ee8db7a6693070031d68a602ad3b04e37699f6d5e623b8028624ca34d9386e"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/whisper-large-v3/gpu_samples.csv",
+      "bytes": 9801,
+      "sha256": "f385d409058c45ed0ff62b2311e1dd5d0bbb7767cc5d397f7740d1e5651a9eff"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/whisper-large-v3/packages.json",
+      "bytes": 4624,
+      "sha256": "7473166a2d101a3683461333fe7133ff6ac510de9e417fdb02772312a9e4dd55"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/whisper-large-v3/results/MODEL_openai-whisper-large-v3_DATASET_-home-sclynch-projects-normExperiment-data-leaderboard-ami_cleaned-hf_pilot_ami_cleaned_test.jsonl",
+      "bytes": 192959,
+      "sha256": "55b291712a5fb5e1fafea7906f103601e3df554c564f056f16cb99900ab7ec31"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/whisper-large-v3/status.json",
+      "bytes": 76,
+      "sha256": "32e0529c89ccfdf15c0c2059c35b5dd5e37d26df998148fa932bf4e3b9343ddc"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/whisper-large-v3/stemming_clip_audit.jsonl",
+      "bytes": 717068,
+      "sha256": "435bef62e64e1687e75d34444ac31aa9b4063e00aa6319d874aebc53f3b3105a"
+    },
+    {
+      "path": "results/pilot/20261114T195638016516Z/whisper-large-v3/verified_score.json",
+      "bytes": 519,
+      "sha256": "b868ea85c66733249d7bad9b62df86feedf517af1415a022f4e2aa7aeeda51e9"
+    }
+  ]
+}

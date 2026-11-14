@@ -1,0 +1,2622 @@
+{
+  "version": "ami-compounds-v1",
+  "canonical_form": "closed",
+  "reviewer": "Codex LLM review; no human approval claimed",
+  "review_method": "Screened all 407 candidate forms; inspected up to two development contexts per form for shortlisted pairs. Conservative inclusion; no evaluation references or predictions used to choose rules. This is not an exhaustive linguistic correctness audit.",
+  "candidates_sha256": "023bc47945763dadde03ae382180e23bd80aec9331df69055ce31373d6d3d2e4",
+  "development_provenance_sha256": "fa10c61aae11ece5552ccfefb790cfb15fd23b649c41fdb1f5f261874b73e439",
+  "rules": [
+    {
+      "open": "back light",
+      "closed": "backlight"
+    },
+    {
+      "open": "back side",
+      "closed": "backside"
+    },
+    {
+      "open": "brain storm",
+      "closed": "brainstorm"
+    },
+    {
+      "open": "brain storming",
+      "closed": "brainstorming"
+    },
+    {
+      "open": "cell phone",
+      "closed": "cellphone"
+    },
+    {
+      "open": "cell phones",
+      "closed": "cellphones"
+    },
+    {
+      "open": "co operation",
+      "closed": "cooperation"
+    },
+    {
+      "open": "co ordination",
+      "closed": "coordination"
+    },
+    {
+      "open": "do able",
+      "closed": "doable"
+    },
+    {
+      "open": "e mailed",
+      "closed": "emailed"
+    },
+    {
+      "open": "e mails",
+      "closed": "emails"
+    },
+    {
+      "open": "flash lights",
+      "closed": "flashlights"
+    },
+    {
+      "open": "half way",
+      "closed": "halfway"
+    },
+    {
+      "open": "hand held",
+      "closed": "handheld"
+    },
+    {
+      "open": "hand set",
+      "closed": "handset"
+    },
+    {
+      "open": "hand writing",
+      "closed": "handwriting"
+    },
+    {
+      "open": "infra red",
+      "closed": "infrared"
+    },
+    {
+      "open": "key pad",
+      "closed": "keypad"
+    },
+    {
+      "open": "key word",
+      "closed": "keyword"
+    },
+    {
+      "open": "lunch time",
+      "closed": "lunchtime"
+    },
+    {
+      "open": "multi functional",
+      "closed": "multifunctional"
+    },
+    {
+      "open": "on line",
+      "closed": "online"
+    },
+    {
+      "open": "out dated",
+      "closed": "outdated"
+    },
+    {
+      "open": "per cent",
+      "closed": "percent"
+    },
+    {
+      "open": "pine apple",
+      "closed": "pineapple"
+    },
+    {
+      "open": "pre set",
+      "closed": "preset"
+    },
+    {
+      "open": "re chargeable",
+      "closed": "rechargeable"
+    },
+    {
+      "open": "re design",
+      "closed": "redesign"
+    },
+    {
+      "open": "re evaluate",
+      "closed": "reevaluate"
+    },
+    {
+      "open": "re use",
+      "closed": "reuse"
+    },
+    {
+      "open": "short cut",
+      "closed": "shortcut"
+    },
+    {
+      "open": "stand point",
+      "closed": "standpoint"
+    },
+    {
+      "open": "straight forward",
+      "closed": "straightforward"
+    },
+    {
+      "open": "sub titles",
+      "closed": "subtitles"
+    },
+    {
+      "open": "team work",
+      "closed": "teamwork"
+    },
+    {
+      "open": "tool bar",
+      "closed": "toolbar"
+    },
+    {
+      "open": "un breakable",
+      "closed": "unbreakable"
+    },
+    {
+      "open": "under side",
+      "closed": "underside"
+    },
+    {
+      "open": "water proof",
+      "closed": "waterproof"
+    },
+    {
+      "open": "web page",
+      "closed": "webpage"
+    },
+    {
+      "open": "web site",
+      "closed": "website"
+    },
+    {
+      "open": "world wide",
+      "closed": "worldwide"
+    }
+  ],
+  "review": [
+    {
+      "open": "a b",
+      "closed": "ab",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "a ba",
+      "closed": "aba",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "a c",
+      "closed": "ac",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "a cross",
+      "closed": "across",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "a d",
+      "closed": "ad",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "a g",
+      "closed": "ag",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "a go",
+      "closed": "ago",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "a head",
+      "closed": "ahead",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "a l",
+      "closed": "al",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "a la",
+      "closed": "ala",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "a long",
+      "closed": "along",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "a mi",
+      "closed": "ami",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "a mount",
+      "closed": "amount",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "a n",
+      "closed": "an",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "a no",
+      "closed": "ano",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "a non",
+      "closed": "anon",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "a p",
+      "closed": "ap",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "a part",
+      "closed": "apart",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "a r",
+      "closed": "ar",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "a re",
+      "closed": "are",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "a round",
+      "closed": "around",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "a s",
+      "closed": "as",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "a side",
+      "closed": "aside",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "a sks",
+      "closed": "asks",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "a t",
+      "closed": "at",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "a u",
+      "closed": "au",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "a v",
+      "closed": "av",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "a w",
+      "closed": "aw",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "a way",
+      "closed": "away",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "a ye",
+      "closed": "aye",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "ab a",
+      "closed": "aba",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "all s",
+      "closed": "alls",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "am i",
+      "closed": "ami",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "am using",
+      "closed": "amusing",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "an a",
+      "closed": "ana",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "an d",
+      "closed": "and",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "an on",
+      "closed": "anon",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "an other",
+      "closed": "another",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "and y",
+      "closed": "andy",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "any more",
+      "closed": "anymore",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "any thing",
+      "closed": "anything",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "any time",
+      "closed": "anytime",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "any way",
+      "closed": "anyway",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "apple s",
+      "closed": "apples",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "are a",
+      "closed": "area",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "are as",
+      "closed": "areas",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "as a",
+      "closed": "asa",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "as s",
+      "closed": "ass",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "at a",
+      "closed": "ata",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "at i",
+      "closed": "ati",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "b a",
+      "closed": "ba",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "b al",
+      "closed": "bal",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "b and",
+      "closed": "band",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "b are",
+      "closed": "bare",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "b i",
+      "closed": "bi",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "b it",
+      "closed": "bit",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "b on",
+      "closed": "bon",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "back light",
+      "closed": "backlight",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "back side",
+      "closed": "backside",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "back up",
+      "closed": "backup",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "badger s",
+      "closed": "badgers",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "banana s",
+      "closed": "bananas",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "be an",
+      "closed": "bean",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "be at",
+      "closed": "beat",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "be c",
+      "closed": "bec",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "be cause",
+      "closed": "because",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "be come",
+      "closed": "become",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "be g",
+      "closed": "beg",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "be have",
+      "closed": "behave",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "be long",
+      "closed": "belong",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "be low",
+      "closed": "below",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "be t",
+      "closed": "bet",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "bit s",
+      "closed": "bits",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "board s",
+      "closed": "boards",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "brain storm",
+      "closed": "brainstorm",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "brain storming",
+      "closed": "brainstorming",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "break down",
+      "closed": "breakdown",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "break through",
+      "closed": "breakthrough",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "broke n",
+      "closed": "broken",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "bu y",
+      "closed": "buy",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "but t",
+      "closed": "butt",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "button s",
+      "closed": "buttons",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "buy s",
+      "closed": "buys",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "c a",
+      "closed": "ca",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "c are",
+      "closed": "care",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "c on",
+      "closed": "con",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "c or",
+      "closed": "cor",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "c our",
+      "closed": "cour",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "ca l",
+      "closed": "cal",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "cable s",
+      "closed": "cables",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "can not",
+      "closed": "cannot",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "can s",
+      "closed": "cans",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "cat s",
+      "closed": "cats",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "cause s",
+      "closed": "causes",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "cell phone",
+      "closed": "cellphone",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "cell phones",
+      "closed": "cellphones",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "channel s",
+      "closed": "channels",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "chip s",
+      "closed": "chips",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "co operation",
+      "closed": "cooperation",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "co ordination",
+      "closed": "coordination",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "color s",
+      "closed": "colors",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "computer s",
+      "closed": "computers",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "content s",
+      "closed": "contents",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "control s",
+      "closed": "controls",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "controller s",
+      "closed": "controllers",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "customer s",
+      "closed": "customers",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "d a",
+      "closed": "da",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "d ad",
+      "closed": "dad",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "d i",
+      "closed": "di",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "d if",
+      "closed": "dif",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "d is",
+      "closed": "dis",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "d oh",
+      "closed": "doh",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "d on",
+      "closed": "don",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "da da",
+      "closed": "dada",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "day s",
+      "closed": "days",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "decide s",
+      "closed": "decides",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "demographic s",
+      "closed": "demographics",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "design s",
+      "closed": "designs",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "device s",
+      "closed": "devices",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "display s",
+      "closed": "displays",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "do able",
+      "closed": "doable",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "do n",
+      "closed": "don",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "do or",
+      "closed": "door",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "do w",
+      "closed": "dow",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "door s",
+      "closed": "doors",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "double s",
+      "closed": "doubles",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "e mailed",
+      "closed": "emailed",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "e mails",
+      "closed": "emails",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "e no",
+      "closed": "eno",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "esp e",
+      "closed": "espe",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "evaluation s",
+      "closed": "evaluations",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "every day",
+      "closed": "everyday",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "every one",
+      "closed": "everyone",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "f are",
+      "closed": "fare",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "f at",
+      "closed": "fat",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "f i",
+      "closed": "fi",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "f in",
+      "closed": "fin",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "f it",
+      "closed": "fit",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "f its",
+      "closed": "fits",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "f or",
+      "closed": "for",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "feed back",
+      "closed": "feedback",
+      "decision": "reject",
+      "reason": "Open form is a verb phrase in development context; closed form is a noun."
+    },
+    {
+      "open": "file s",
+      "closed": "files",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "flash lights",
+      "closed": "flashlights",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "for m",
+      "closed": "form",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "for th",
+      "closed": "forth",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "function s",
+      "closed": "functions",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "game boy",
+      "closed": "gameboy",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "get s",
+      "closed": "gets",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "go in",
+      "closed": "goin",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "go t",
+      "closed": "got",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "good s",
+      "closed": "goods",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "group s",
+      "closed": "groups",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "h a",
+      "closed": "ha",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "h and",
+      "closed": "hand",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "h i",
+      "closed": "hi",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "h is",
+      "closed": "his",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "h it",
+      "closed": "hit",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "half way",
+      "closed": "halfway",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "hand held",
+      "closed": "handheld",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "hand s",
+      "closed": "hands",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "hand set",
+      "closed": "handset",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "hand writing",
+      "closed": "handwriting",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "have s",
+      "closed": "haves",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "he r",
+      "closed": "her",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "head s",
+      "closed": "heads",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "i d",
+      "closed": "id",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "i l",
+      "closed": "il",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "i m",
+      "closed": "im",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "i n",
+      "closed": "in",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "i s",
+      "closed": "is",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "i sh",
+      "closed": "ish",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "i t",
+      "closed": "it",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "idea s",
+      "closed": "ideas",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "in c",
+      "closed": "inc",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "in consistent",
+      "closed": "inconsistent",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "in form",
+      "closed": "inform",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "in no",
+      "closed": "inno",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "in s",
+      "closed": "ins",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "in sight",
+      "closed": "insight",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "in to",
+      "closed": "into",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "infra red",
+      "closed": "infrared",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "input s",
+      "closed": "inputs",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "ipod s",
+      "closed": "ipods",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "is h",
+      "closed": "ish",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "it s",
+      "closed": "its",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "k i",
+      "closed": "ki",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "key pad",
+      "closed": "keypad",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "key word",
+      "closed": "keyword",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "kick off",
+      "closed": "kickoff",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "kid s",
+      "closed": "kids",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "kind a",
+      "closed": "kinda",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "kind s",
+      "closed": "kinds",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "know s",
+      "closed": "knows",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "l a",
+      "closed": "la",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "l and",
+      "closed": "land",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "l as",
+      "closed": "las",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "l i",
+      "closed": "li",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "l it",
+      "closed": "lit",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "l on",
+      "closed": "lon",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "lay out",
+      "closed": "layout",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "le an",
+      "closed": "lean",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "like s",
+      "closed": "likes",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "little r",
+      "closed": "littler",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "logo s",
+      "closed": "logos",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "lot s",
+      "closed": "lots",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "lunch time",
+      "closed": "lunchtime",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "m a",
+      "closed": "ma",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "m as",
+      "closed": "mas",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "m i",
+      "closed": "mi",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "m is",
+      "closed": "mis",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "m or",
+      "closed": "mor",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "ma i",
+      "closed": "mai",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "ma y",
+      "closed": "may",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "make s",
+      "closed": "makes",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "manager s",
+      "closed": "managers",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "manufacturer s",
+      "closed": "manufacturers",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "market s",
+      "closed": "markets",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "master s",
+      "closed": "masters",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "material s",
+      "closed": "materials",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "may be",
+      "closed": "maybe",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "me a",
+      "closed": "mea",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "me an",
+      "closed": "mean",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "meeting s",
+      "closed": "meetings",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "microphone s",
+      "closed": "microphones",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "mike s",
+      "closed": "mikes",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "multi functional",
+      "closed": "multifunctional",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "n a",
+      "closed": "na",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "n i",
+      "closed": "ni",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "n on",
+      "closed": "non",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "n one",
+      "closed": "none",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "name s",
+      "closed": "names",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "need s",
+      "closed": "needs",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "new s",
+      "closed": "news",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "no n",
+      "closed": "non",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "no ne",
+      "closed": "none",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "no r",
+      "closed": "nor",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "no t",
+      "closed": "not",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "no w",
+      "closed": "now",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "now here",
+      "closed": "nowhere",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "of f",
+      "closed": "off",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "off s",
+      "closed": "offs",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "okay s",
+      "closed": "okays",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "on line",
+      "closed": "online",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "on s",
+      "closed": "ons",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "on to",
+      "closed": "onto",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "one s",
+      "closed": "ones",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "other s",
+      "closed": "others",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "our s",
+      "closed": "ours",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "out dated",
+      "closed": "outdated",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "over all",
+      "closed": "overall",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "p a",
+      "closed": "pa",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "p i",
+      "closed": "pi",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "p in",
+      "closed": "pin",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "p on",
+      "closed": "pon",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "part i",
+      "closed": "parti",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "pen s",
+      "closed": "pens",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "people s",
+      "closed": "peoples",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "per cent",
+      "closed": "percent",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "person s",
+      "closed": "persons",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "philip s",
+      "closed": "philips",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "pine apple",
+      "closed": "pineapple",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "pla s",
+      "closed": "plas",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "plastic s",
+      "closed": "plastics",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "play back",
+      "closed": "playback",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "point less",
+      "closed": "pointless",
+      "decision": "reject",
+      "reason": "Open form means one fewer point; closed form means futile."
+    },
+    {
+      "open": "point y",
+      "closed": "pointy",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "power point",
+      "closed": "powerpoint",
+      "decision": "reject",
+      "reason": "Open form refers to an electrical power point; closed examples refer to presentation software."
+    },
+    {
+      "open": "power s",
+      "closed": "powers",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "pr i",
+      "closed": "pri",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "pre set",
+      "closed": "preset",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "pro of",
+      "closed": "proof",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "product s",
+      "closed": "products",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "program s",
+      "closed": "programs",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "project or",
+      "closed": "projector",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "project s",
+      "closed": "projects",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "r are",
+      "closed": "rare",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "r on",
+      "closed": "ron",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "re chargeable",
+      "closed": "rechargeable",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "re design",
+      "closed": "redesign",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "re evaluate",
+      "closed": "reevaluate",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "re use",
+      "closed": "reuse",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "reaction s",
+      "closed": "reactions",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "right s",
+      "closed": "rights",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "rubber s",
+      "closed": "rubbers",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "run down",
+      "closed": "rundown",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "run s",
+      "closed": "runs",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "s a",
+      "closed": "sa",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "s an",
+      "closed": "san",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "s how",
+      "closed": "show",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "s i",
+      "closed": "si",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "s in",
+      "closed": "sin",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "s it",
+      "closed": "sit",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "s low",
+      "closed": "slow",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "s now",
+      "closed": "snow",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "s old",
+      "closed": "sold",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "s or",
+      "closed": "sor",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "s take",
+      "closed": "stake",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "s top",
+      "closed": "stop",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "s up",
+      "closed": "sup",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "s way",
+      "closed": "sway",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "say s",
+      "closed": "says",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "screen s",
+      "closed": "screens",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "scroll s",
+      "closed": "scrolls",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "se a",
+      "closed": "sea",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "see n",
+      "closed": "seen",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "set up",
+      "closed": "setup",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "sh a",
+      "closed": "sha",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "sh it",
+      "closed": "shit",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "shape s",
+      "closed": "shapes",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "short cut",
+      "closed": "shortcut",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "side s",
+      "closed": "sides",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "signal s",
+      "closed": "signals",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "slogan s",
+      "closed": "slogans",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "so l",
+      "closed": "sol",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "so m",
+      "closed": "som",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "so on",
+      "closed": "soon",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "so r",
+      "closed": "sor",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "some one",
+      "closed": "someone",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "some thing",
+      "closed": "something",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "some time",
+      "closed": "sometime",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "some times",
+      "closed": "sometimes",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "some what",
+      "closed": "somewhat",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "stand by",
+      "closed": "standby",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "stand point",
+      "closed": "standpoint",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "start s",
+      "closed": "starts",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "straight forward",
+      "closed": "straightforward",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "su it",
+      "closed": "suit",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "sub titles",
+      "closed": "subtitles",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "symbol s",
+      "closed": "symbols",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "t a",
+      "closed": "ta",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "t i",
+      "closed": "ti",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "t in",
+      "closed": "tin",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "t it",
+      "closed": "tit",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "t one",
+      "closed": "tone",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "ta da",
+      "closed": "tada",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "team s",
+      "closed": "teams",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "team work",
+      "closed": "teamwork",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "telephone s",
+      "closed": "telephones",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "tell y",
+      "closed": "telly",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "th an",
+      "closed": "than",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "th at",
+      "closed": "that",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "th i",
+      "closed": "thi",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "th in",
+      "closed": "thin",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "th is",
+      "closed": "this",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "th s",
+      "closed": "ths",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "the m",
+      "closed": "them",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "the me",
+      "closed": "theme",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "the n",
+      "closed": "then",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "the re",
+      "closed": "there",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "the se",
+      "closed": "these",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "thing s",
+      "closed": "things",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "think s",
+      "closed": "thinks",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "though t",
+      "closed": "thought",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "to d",
+      "closed": "tod",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "to m",
+      "closed": "tom",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "to ns",
+      "closed": "tons",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "to p",
+      "closed": "top",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "to tally",
+      "closed": "totally",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "to y",
+      "closed": "toy",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "tool bar",
+      "closed": "toolbar",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "triangle s",
+      "closed": "triangles",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "turn over",
+      "closed": "turnover",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "un breakable",
+      "closed": "unbreakable",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "under side",
+      "closed": "underside",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "up on",
+      "closed": "upon",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "us a",
+      "closed": "usa",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "use d",
+      "closed": "used",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "use s",
+      "closed": "uses",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "user s",
+      "closed": "users",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "v i",
+      "closed": "vi",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "video s",
+      "closed": "videos",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "w a",
+      "closed": "wa",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "w all",
+      "closed": "wall",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "w as",
+      "closed": "was",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "w ho",
+      "closed": "who",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "w in",
+      "closed": "win",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "w it",
+      "closed": "wit",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "w or",
+      "closed": "wor",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "wa i",
+      "closed": "wai",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "wa it",
+      "closed": "wait",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "wait s",
+      "closed": "waits",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "was h",
+      "closed": "wash",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "water proof",
+      "closed": "waterproof",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "we ar",
+      "closed": "wear",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "we b",
+      "closed": "web",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "we i",
+      "closed": "wei",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "we re",
+      "closed": "were",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "we t",
+      "closed": "wet",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "web page",
+      "closed": "webpage",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "web site",
+      "closed": "website",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "wh y",
+      "closed": "why",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "what not",
+      "closed": "whatnot",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "what s",
+      "closed": "whats",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "wheel s",
+      "closed": "wheels",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "which ever",
+      "closed": "whichever",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "wi i",
+      "closed": "wii",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "with in",
+      "closed": "within",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "wood s",
+      "closed": "woods",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "work s",
+      "closed": "works",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "world wide",
+      "closed": "worldwide",
+      "decision": "accept",
+      "reason": "Conventional spelling/hyphenation variant with equivalent meaning in inspected development examples; canonicalize to closed form for search-oriented scoring."
+    },
+    {
+      "open": "y a",
+      "closed": "ya",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "year s",
+      "closed": "years",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "yellow s",
+      "closed": "yellows",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "you r",
+      "closed": "your",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "you s",
+      "closed": "yous",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    },
+    {
+      "open": "you th",
+      "closed": "youth",
+      "decision": "reject",
+      "reason": "Not admitted to conservative v1: potential meaning/grammar difference, fragment, name, or insufficient evidence of context-independent equivalence."
+    },
+    {
+      "open": "your s",
+      "closed": "yours",
+      "decision": "reject",
+      "reason": "Letter/suffix/spelling or fragment boundary; outside conservative compound scope."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "models": {
+    "whisper-large-v3": {
+      "model_id": "openai/whisper-large-v3",
+      "revision": "06f233fe06e710322aca913c1bc4249a0d71fce1"
+    },
+    "whisper-large-v3-turbo": {
+      "model_id": "openai/whisper-large-v3-turbo",
+      "revision": "41f01f3fe87f28c78e2fbf8b568835947dd65ed9"
+    },
+    "parakeet": {
+      "model_id": "nvidia/parakeet-tdt-0.6b-v3",
+      "revision": "541d1f99c6b0c3cd0b11a95167540bb8edefd82b"
+    }
+  },
+  "batch_size": 2,
+  "warmup_steps": 1,
+  "scoring_revision": "c21a412f2dd7cbe3af658d69fbf3d0dd536a264e",
+  "purpose": "Compatibility smoke test; not a leaderboard estimate"
+}

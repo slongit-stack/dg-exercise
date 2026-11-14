@@ -1,0 +1,184 @@
+{
+  "seed": 20261114,
+  "replicates": 20000,
+  "examples": 800,
+  "reference_words": 8584,
+  "observed_unweighted_wer_percent": {
+    "whisper-large-v3": 14.328984156570364,
+    "whisper-large-v3-turbo": 14.853215284249767,
+    "parakeet": 9.214818266542405
+  },
+  "stratified_clip_bootstrap": {
+    "method": "Paired resampling within each fixed meeting-duration stratum; original n_h draws with replacement, full-split weights N_h/n_h; percentile intervals; no finite-population correction.",
+    "interpretation": "Approximate clip-selection uncertainty conditional on the represented benchmark meetings/speakers and sampling design; not new-meeting or new-speaker uncertainty.",
+    "results": {
+      "models": {
+        "whisper-large-v3": {
+          "point_wer_percent": 14.31490530481438,
+          "percentile_95_interval": [
+            13.183878277105526,
+            15.457170496955634
+          ]
+        },
+        "whisper-large-v3-turbo": {
+          "point_wer_percent": 14.845789226778356,
+          "percentile_95_interval": [
+            13.696032016682093,
+            16.035128202881314
+          ]
+        },
+        "parakeet": {
+          "point_wer_percent": 9.218885231573095,
+          "percentile_95_interval": [
+            8.261671731468422,
+            10.218689690319309
+          ]
+        }
+      },
+      "paired_differences_pp": {
+        "whisper-large-v3 minus parakeet": {
+          "point_difference_pp": 5.096020073241284,
+          "percentile_95_interval_pp": [
+            4.041188791852211,
+            6.13443030758819
+          ]
+        },
+        "whisper-large-v3-turbo minus parakeet": {
+          "point_difference_pp": 5.626903995205261,
+          "percentile_95_interval_pp": [
+            4.507236191783184,
+            6.743547779978885
+          ]
+        },
+        "whisper-large-v3-turbo minus whisper-large-v3": {
+          "point_difference_pp": 0.5308839219639765,
+          "percentile_95_interval_pp": [
+            -0.10418058572909711,
+            1.1569443947802482
+          ]
+        }
+      }
+    }
+  },
+  "whole_series_sensitivity": {
+    "method": "Exact enumeration of all 4^4=256 ordered bootstrap samples of four whole meeting series; identical resampling for every model; repeated meetings/speakers remain together.",
+    "interpretation": "Only four clusters. Descriptive sensitivity ranges, not reliable nominal 95% coverage or a significance test. Treat narrower clip-level intervals alongside this dependence check.",
+    "results": {
+      "models": {
+        "whisper-large-v3": {
+          "point_wer_percent": 14.328984156570364,
+          "percentile_95_interval": [
+            10.7040041873855,
+            18.62300435413643
+          ]
+        },
+        "whisper-large-v3-turbo": {
+          "point_wer_percent": 14.853215284249767,
+          "percentile_95_interval": [
+            11.1348021795783,
+            19.294267053701017
+          ]
+        },
+        "parakeet": {
+          "point_wer_percent": 9.214818266542405,
+          "percentile_95_interval": [
+            6.276100703973273,
+            12.458276950834462
+          ]
+        }
+      },
+      "paired_differences_pp": {
+        "whisper-large-v3 minus parakeet": {
+          "point_difference_pp": 5.114165890027959,
+          "percentile_95_interval_pp": [
+            3.8714859437750997,
+            6.086882597976706
+          ]
+        },
+        "whisper-large-v3-turbo minus parakeet": {
+          "point_difference_pp": 5.638397017707362,
+          "percentile_95_interval_pp": [
+            4.337349397590361,
+            6.739840348330915
+          ]
+        },
+        "whisper-large-v3-turbo minus whisper-large-v3": {
+          "point_difference_pp": 0.5242311276794034,
+          "percentile_95_interval_pp": [
+            0.3623759256341579,
+            0.6460936835841196
+          ]
+        }
+      }
+    }
+  },
+  "leave_one_series_out": {
+    "EN2002": {
+      "examples_retained": 477,
+      "wer_percent": {
+        "whisper-large-v3": 11.119306656832011,
+        "whisper-large-v3-turbo": 11.543426147888622,
+        "parakeet": 6.8043518347777985
+      },
+      "paired_differences_pp": {
+        "whisper-large-v3 minus parakeet": 4.314954822054212,
+        "whisper-large-v3-turbo minus parakeet": 4.739074313110824,
+        "whisper-large-v3-turbo minus whisper-large-v3": 0.4241194910566115
+      }
+    },
+    "ES2004": {
+      "examples_retained": 630,
+      "wer_percent": {
+        "whisper-large-v3": 15.751903553299492,
+        "whisper-large-v3-turbo": 16.30710659898477,
+        "parakeet": 10.39022842639594
+      },
+      "paired_differences_pp": {
+        "whisper-large-v3 minus parakeet": 5.3616751269035525,
+        "whisper-large-v3-turbo minus parakeet": 5.916878172588831,
+        "whisper-large-v3-turbo minus whisper-large-v3": 0.5552030456852783
+      }
+    },
+    "IS1009": {
+      "examples_retained": 673,
+      "wer_percent": {
+        "whisper-large-v3": 14.838155256373533,
+        "whisper-large-v3-turbo": 15.411057003723862,
+        "parakeet": 9.682039530220568
+      },
+      "paired_differences_pp": {
+        "whisper-large-v3 minus parakeet": 5.156115726152965,
+        "whisper-large-v3-turbo minus parakeet": 5.729017473503294,
+        "whisper-large-v3-turbo minus whisper-large-v3": 0.5729017473503291
+      }
+    },
+    "TS3003": {
+      "examples_retained": 620,
+      "wer_percent": {
+        "whisper-large-v3": 15.022007667187278,
+        "whisper-large-v3-turbo": 15.547351980690047,
+        "parakeet": 9.555587107766577
+      },
+      "paired_differences_pp": {
+        "whisper-large-v3 minus parakeet": 5.466420559420701,
+        "whisper-large-v3-turbo minus parakeet": 5.99176487292347,
+        "whisper-large-v3-turbo minus whisper-large-v3": 0.5253443135027691
+      }
+    }
+  },
+  "provenance": {
+    "manifest_sha256": "a8583c2d3d33ad9c999a0ebebbcc67b8a8769e8bebb7e09b9cc2697fa2c2af37",
+    "prediction_sha256": {
+      "whisper-large-v3": "55b291712a5fb5e1fafea7906f103601e3df554c564f056f16cb99900ab7ec31",
+      "whisper-large-v3-turbo": "283dda2983e7d658e62eed46ffd40088f48f59d85f00e859083258ed47078f4f",
+      "parakeet": "92ddeb3e1de5906a6d344f779ff0510f68b91900ff76d6209623b99badb7f94a"
+    },
+    "scoring": "Upstream EnglishTextNormalizer and kaldialign merge_compounds=True"
+  },
+  "limitations": [
+    "This does not establish a universal sufficient sample size or bound normalization effects not yet measured.",
+    "Weighted full-split estimates differ slightly from the reported unweighted pilot scores.",
+    "No bootstrap probability is interpreted as the probability that one model is better.",
+    "No uncertainty is estimated for published leaderboard figures, whose exact pipeline revisions remain unconfirmed."
+  ]
+}

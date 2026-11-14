@@ -1,0 +1,69 @@
+{
+  "source_url": "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard",
+  "recorded_date": "2026-11-14",
+  "provenance": "Values supplied by the user from the leaderboard; not independently verified.",
+  "notes": [
+    "WER values are percentages; RTFx is a ratio.",
+    "Dataset keys below are descriptive labels, not verified Hugging Face configuration IDs.",
+    "Primary comparison target is AMI-Cleaned.",
+    "Model revisions, dataset revision, scoring revision, and inference settings for these published rows remain to be verified.",
+    "Published RTFx is not an expected speed on G5.xlarge or G6.xlarge; hardware, backend, batching, and timing protocol must be matched for a speed comparison.",
+    "Parakeet v3 is selected; the user corrected the initially supplied v2 row."
+  ],
+  "models": [
+    {
+      "model_id": "nvidia/parakeet-tdt-0.6b-v3",
+      "leaderboard_implementation_label": "fast-gpu-asr",
+      "model_revision": null,
+      "average_wer_percent": 6.95,
+      "rtfx": 14319.58,
+      "private_scripted_wer_percent": 4.54,
+      "private_conversational_wer_percent": 13.4,
+      "dataset_wer_percent": {
+        "ami_cleaned": 9.01,
+        "earnings22_cleaned_aa_chunked": 5.81,
+        "gigaspeech_cleaned": 7.75,
+        "spgispeech": 3.56,
+        "urgent24": 11.5,
+        "voice_arena_monsoon": 3.96,
+        "voxpopuli_aa_cleaned": 3.04
+      }
+    },
+    {
+      "model_id": "openai/whisper-large-v3",
+      "leaderboard_implementation_label": null,
+      "model_revision": null,
+      "average_wer_percent": 8.24,
+      "rtfx": 470.74,
+      "private_scripted_wer_percent": 3.6,
+      "private_conversational_wer_percent": 15.66,
+      "dataset_wer_percent": {
+        "ami_cleaned": 13.63,
+        "earnings22_cleaned_aa_chunked": 7.99,
+        "gigaspeech_cleaned": 8.35,
+        "spgispeech": 2.71,
+        "urgent24": 13.73,
+        "voice_arena_monsoon": 3.95,
+        "voxpopuli_aa_cleaned": 4.53
+      }
+    },
+    {
+      "model_id": "openai/whisper-large-v3-turbo",
+      "leaderboard_implementation_label": null,
+      "model_revision": null,
+      "average_wer_percent": 8.75,
+      "rtfx": 808.92,
+      "private_scripted_wer_percent": 4.06,
+      "private_conversational_wer_percent": 15.95,
+      "dataset_wer_percent": {
+        "ami_cleaned": 13.88,
+        "earnings22_cleaned_aa_chunked": 8.09,
+        "gigaspeech_cleaned": 8.47,
+        "spgispeech": 2.79,
+        "urgent24": 13.69,
+        "voice_arena_monsoon": 4.77,
+        "voxpopuli_aa_cleaned": 7.02
+      }
+    }
+  ]
+}

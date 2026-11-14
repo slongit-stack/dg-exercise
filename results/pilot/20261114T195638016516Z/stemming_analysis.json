@@ -1,0 +1,134 @@
+{
+  "policy": {
+    "version": "snowball-english-v1",
+    "package": "snowballstemmer",
+    "package_version": "3.0.1",
+    "language": "english",
+    "input": "Pinned upstream EnglishTextNormalizer output",
+    "token_policy": "Stem lowercase ASCII alphabetic tokens only; preserve all other tokens and token count",
+    "custom_compounds": false,
+    "stopword_removal": false,
+    "acronym_canonicalization": false,
+    "selection": "Fixed Snowball English algorithm agreed before pilot rescoring; no fitted parameters or test-derived exceptions",
+    "interpretation": "Exploratory search-matching policy; not a measured retrieval outcome"
+  },
+  "policy_sha256": "a4890647f0439c1fb5d344633e64e79ec91514252c49692374f57f10e8c38752",
+  "manifest_sha256": "a8583c2d3d33ad9c999a0ebebbcc67b8a8769e8bebb7e09b9cc2697fa2c2af37",
+  "development_audit_sha256": "641b3fa4bb6a79947a4d1c86e4a6553e87532e8c0a0767ddd024ed760088de1e",
+  "source_sha256": {
+    "evaluate_stemming.py": "f9b5b1c61f144e1b275bf2e77326c8b245f5acb59203be1e0e126922dc43facb",
+    "stem_normalization.py": "c9f903fb0a1c92ec9876504f19bfa2dca5f324134715205a13f1d2a0e19b6d1b"
+  },
+  "packages": {
+    "snowballstemmer": "3.0.1",
+    "kaldialign": "0.12.0",
+    "regex": "2026.9.29"
+  },
+  "models": {
+    "whisper-large-v3": {
+      "predictions_sha256": "55b291712a5fb5e1fafea7906f103601e3df554c564f056f16cb99900ab7ec31",
+      "variants": {
+        "upstream_token_alignment": {
+          "insertions": 138,
+          "deletions": 762,
+          "substitutions": 365,
+          "reference_words": 8584,
+          "wer_percent": 14.736719478098788
+        },
+        "upstream_compound_alignment": {
+          "insertions": 135,
+          "deletions": 749,
+          "substitutions": 346,
+          "reference_words": 8584,
+          "wer_percent": 14.328984156570364
+        },
+        "stemmed_token_alignment": {
+          "insertions": 139,
+          "deletions": 763,
+          "substitutions": 342,
+          "reference_words": 8584,
+          "wer_percent": 14.492078285181734
+        },
+        "stemmed_compound_alignment": {
+          "insertions": 137,
+          "deletions": 752,
+          "substitutions": 326,
+          "reference_words": 8584,
+          "wer_percent": 14.154240447343895
+        }
+      },
+      "changed_reference_clips": 547,
+      "changed_prediction_clips": 550
+    },
+    "whisper-large-v3-turbo": {
+      "predictions_sha256": "283dda2983e7d658e62eed46ffd40088f48f59d85f00e859083258ed47078f4f",
+      "variants": {
+        "upstream_token_alignment": {
+          "insertions": 159,
+          "deletions": 796,
+          "substitutions": 354,
+          "reference_words": 8584,
+          "wer_percent": 15.249301025163094
+        },
+        "upstream_compound_alignment": {
+          "insertions": 154,
+          "deletions": 784,
+          "substitutions": 337,
+          "reference_words": 8584,
+          "wer_percent": 14.853215284249767
+        },
+        "stemmed_token_alignment": {
+          "insertions": 158,
+          "deletions": 795,
+          "substitutions": 331,
+          "reference_words": 8584,
+          "wer_percent": 14.958061509785647
+        },
+        "stemmed_compound_alignment": {
+          "insertions": 154,
+          "deletions": 784,
+          "substitutions": 316,
+          "reference_words": 8584,
+          "wer_percent": 14.608574091332713
+        }
+      },
+      "changed_reference_clips": 547,
+      "changed_prediction_clips": 551
+    },
+    "parakeet": {
+      "predictions_sha256": "92ddeb3e1de5906a6d344f779ff0510f68b91900ff76d6209623b99badb7f94a",
+      "variants": {
+        "upstream_token_alignment": {
+          "insertions": 214,
+          "deletions": 247,
+          "substitutions": 367,
+          "reference_words": 8584,
+          "wer_percent": 9.645852749301024
+        },
+        "upstream_compound_alignment": {
+          "insertions": 211,
+          "deletions": 233,
+          "substitutions": 347,
+          "reference_words": 8584,
+          "wer_percent": 9.214818266542405
+        },
+        "stemmed_token_alignment": {
+          "insertions": 214,
+          "deletions": 247,
+          "substitutions": 343,
+          "reference_words": 8584,
+          "wer_percent": 9.366262814538677
+        },
+        "stemmed_compound_alignment": {
+          "insertions": 212,
+          "deletions": 237,
+          "substitutions": 326,
+          "reference_words": 8584,
+          "wer_percent": 9.028424976700839
+        }
+      },
+      "changed_reference_clips": 547,
+      "changed_prediction_clips": 556
+    }
+  }
+}

@@ -1,0 +1,1179 @@
+{
+  "version": "domain-contrast-v1",
+  "policy": {
+    "version": "domain-contrast-v1",
+    "formula": "salience(t) = AMI_relative_TF(t) * max(0, Brown_IDF(t) - AMI_meeting_IDF(t)); IDF=ln((N+1)/(DF+1)); weight=1+3*salience/max_development_salience",
+    "support": "ASCII alphabetic tokens of length>=3, >=5 development occurrences, >=3 meetings, >=2 meeting series",
+    "fallback_weight": 1.0,
+    "maximum_weight": 4.0,
+    "alignment": "Minimum weighted-cost token Levenshtein; no compound merging; match=0, deletion=w(reference), insertion=w(hypothesis), substitution=max(w(reference),w(hypothesis)); ties prefer diagonal then deletion then insertion",
+    "aggregation": "100 * sum(weighted edit cost) / sum(reference token weights)",
+    "normalizations": [
+      "upstream English",
+      "upstream English then fixed Snowball English v1"
+    ],
+    "stopwords_removed": false,
+    "acronym_rules": false,
+    "selection": "Development-only parameters fixed before inspecting evaluation scores; exploratory metric, no claim of retrieval validation",
+    "boost_exclusions": [
+      "about",
+      "actually",
+      "all",
+      "alright",
+      "also",
+      "anyone",
+      "anything",
+      "anyway",
+      "are",
+      "basically",
+      "because",
+      "been",
+      "being",
+      "bit",
+      "can",
+      "cause",
+      "could",
+      "definitely",
+      "different",
+      "does",
+      "don",
+      "dunno",
+      "easy",
+      "even",
+      "everyone",
+      "everything",
+      "from",
+      "get",
+      "going",
+      "gonna",
+      "good",
+      "got",
+      "gotta",
+      "guess",
+      "guys",
+      "had",
+      "has",
+      "have",
+      "here",
+      "how",
+      "into",
+      "its",
+      "just",
+      "kind",
+      "kinda",
+      "know",
+      "let",
+      "like",
+      "look",
+      "lot",
+      "make",
+      "maybe",
+      "mean",
+      "more",
+      "most",
+      "much",
+      "nah",
+      "need",
+      "next",
+      "nice",
+      "nope",
+      "not",
+      "nothing",
+      "now",
+      "ok",
+      "okay",
+      "one",
+      "only",
+      "other",
+      "our",
+      "people",
+      "pretty",
+      "put",
+      "quite",
+      "really",
+      "right",
+      "say",
+      "see",
+      "should",
+      "some",
+      "someone",
+      "something",
+      "somewhere",
+      "sorry",
+      "sort",
+      "still",
+      "stuff",
+      "sure",
+      "tha",
+      "that",
+      "then",
+      "there",
+      "these",
+      "thing",
+      "things",
+      "think",
+      "this",
+      "those",
+      "too",
+      "two",
+      "use",
+      "very",
+      "wanna",
+      "want",
+      "was",
+      "well",
+      "were",
+      "wha",
+      "what",
+      "will",
+      "with",
+      "would",
+      "yeah",
+      "yep",
+      "yes",
+      "you",
+      "your"
+    ],
+    "boost_exclusion_policy": "Development-reviewed conversational/function-word forms receive weight 1, not removal. Under stemming exclude their stems too. Fixed before any pilot weighted scoring."
+  },
+  "policy_sha256": "629e9f761442d1b983aa9999d40af7333a6bca97abb126dda1af2530138976e1",
+  "manifest_sha256": "a8583c2d3d33ad9c999a0ebebbcc67b8a8769e8bebb7e09b9cc2697fa2c2af37",
+  "weight_sha256": {
+    "upstream": "057b5aa4fe0c8f1838d353bd1cd4c71b5f2b12adb9e00ae2db0cb66c8392e51d",
+    "stemmed": "999ce41c8b97c6134f4d9f7aa9dfd15ccb206a1b2e8f7e256847f9bdf8121405"
+  },
+  "scoring_revision": "c21a412f2dd7cbe3af658d69fbf3d0dd536a264e",
+  "source_sha256": {
+    "evaluate_domain_metric.py": "2a64b01aed637ed4f8f97931bf554e82f947f60dbf409400f1e1939665960e4c",
+    "domain_metric.py": "0d952c0a3461f76029eef0f8d4e77c96a27fbd33179bdaa76c4974a3c531f265",
+    "stem_normalization.py": "c9f903fb0a1c92ec9876504f19bfa2dca5f324134715205a13f1d2a0e19b6d1b"
+  },
+  "models": {
+    "whisper-large-v3": {
+      "predictions_sha256": "55b291712a5fb5e1fafea7906f103601e3df554c564f056f16cb99900ab7ec31",
+      "official_baseline_wer_percent": 14.328984156570364,
+      "variants": {
+        "upstream": {
+          "weighted_errors": 1288.0944072118104,
+          "substitution_cost": 400.54165821081403,
+          "deletion_cost": 758.7781051973949,
+          "insertion_cost": 128.7746438036025,
+          "reference_weight": 8958.103604781229,
+          "token_errors": 1265,
+          "reference_words": 8584,
+          "reference_boosted_tokens": 1919,
+          "prediction_boosted_tokens": 1844,
+          "reference_oov_tokens": 121,
+          "prediction_oov_tokens": 125,
+          "hypothesis_words": 7960,
+          "weighted_wer_percent": 14.379097005802802,
+          "token_wer_percent": 14.736719478098788,
+          "boosted_reference_terms": [
+            {
+              "token": "but",
+              "count": 65,
+              "weight": 1.0389152092660026
+            },
+            {
+              "token": "they",
+              "count": 52,
+              "weight": 1.0223436890681734
+            },
+            {
+              "token": "buttons",
+              "count": 29,
+              "weight": 3.6381911860872385
+            },
+            {
+              "token": "which",
+              "count": 25,
+              "weight": 1.0151379656766575
+            },
+            {
+              "token": "remote",
+              "count": 24,
+              "weight": 4.0
+            },
+            {
+              "token": "when",
+              "count": 19,
+              "weight": 1.0083908169678477
+            },
+            {
+              "token": "out",
+              "count": 18,
+              "weight": 1.004755345868874
+            },
+            {
+              "token": "button",
+              "count": 17,
+              "weight": 2.6917203206297664
+            },
+            {
+              "token": "design",
+              "count": 17,
+              "weight": 1.9777698356738949
+            },
+            {
+              "token": "any",
+              "count": 16,
+              "weight": 1.0194738321381265
+            },
+            {
+              "token": "little",
+              "count": 15,
+              "weight": 1.0895830100897825
+            },
+            {
+              "token": "meeting",
+              "count": 15,
+              "weight": 1.4447078860350782
+            },
+            {
+              "token": "them",
+              "count": 15,
+              "weight": 1.0161797795968148
+            },
+            {
+              "token": "channel",
+              "count": 14,
+              "weight": 1.713122500148212
+            },
+            {
+              "token": "probably",
+              "count": 13,
+              "weight": 1.1030832512690607
+            },
+            {
+              "token": "did",
+              "count": 13,
+              "weight": 1.0830743555411624
+            },
+            {
+              "token": "control",
+              "count": 12,
+              "weight": 1.9312337131286528
+            },
+            {
+              "token": "down",
+              "count": 12,
+              "weight": 1.0653661867614765
+            },
+            {
+              "token": "time",
+              "count": 10,
+              "weight": 1.0069252601448195
+            },
+            {
+              "token": "market",
+              "count": 9,
+              "weight": 1.3130227688376064
+            },
+            {
+              "token": "come",
+              "count": 9,
+              "weight": 1.049850220719514
+            },
+            {
+              "token": "user",
+              "count": 9,
+              "weight": 2.1616419287399453
+            },
+            {
+              "token": "whatever",
+              "count": 9,
+              "weight": 1.1205232118033925
+            },
+            {
+              "token": "everybody",
+              "count": 9,
+              "weight": 1.1109713048255527
+            },
+            {
+              "token": "done",
+              "count": 8,
+              "weight": 1.05369129672778
+            },
+            {
+              "token": "send",
+              "count": 8,
+              "weight": 1.0450238416599107
+            },
+            {
+              "token": "board",
+              "count": 8,
+              "weight": 1.0885110465533703
+            },
+            {
+              "token": "than",
+              "count": 8,
+              "weight": 1.0015449128403684
+            },
+            {
+              "token": "doing",
+              "count": 8,
+              "weight": 1.091081813648109
+            },
+            {
+              "token": "having",
+              "count": 7,
+              "weight": 1.0560521228195399
+            }
+          ]
+        },
+        "stemmed": {
+          "weighted_errors": 1263.7035386236078,
+          "substitution_cost": 375.3022697686703,
+          "deletion_cost": 758.7901715330967,
+          "insertion_cost": 129.61109732184113,
+          "reference_weight": 8968.938253718688,
+          "token_errors": 1244,
+          "reference_words": 8584,
+          "reference_boosted_tokens": 1844,
+          "prediction_boosted_tokens": 1766,
+          "reference_oov_tokens": 75,
+          "prediction_oov_tokens": 79,
+          "hypothesis_words": 7960,
+          "weighted_wer_percent": 14.089778554330584,
+          "token_wer_percent": 14.492078285181734,
+          "boosted_reference_terms": [
+            {
+              "token": "but",
+              "count": 65,
+              "weight": 1.0316343584439447
+            },
+            {
+              "token": "they",
+              "count": 52,
+              "weight": 1.0181717350818804
+            },
+            {
+              "token": "button",
+              "count": 46,
+              "weight": 4.0
+            },
+            {
+              "token": "remot",
+              "count": 27,
+              "weight": 3.423640752840487
+            },
+            {
+              "token": "which",
+              "count": 25,
+              "weight": 1.0123057241978106
+            },
+            {
+              "token": "meet",
+              "count": 25,
+              "weight": 1.2524569119558577
+            },
+            {
+              "token": "control",
+              "count": 24,
+              "weight": 1.7994285091603799
+            },
+            {
+              "token": "design",
+              "count": 21,
+              "weight": 1.5822895942007889
+            },
+            {
+              "token": "search",
+              "count": 20,
+              "weight": 1.0009846972810374
+            },
+            {
+              "token": "when",
+              "count": 19,
+              "weight": 1.0068209349661732
+            },
+            {
+              "token": "out",
+              "count": 18,
+              "weight": 1.0033566595907912
+            },
+            {
+              "token": "channel",
+              "count": 17,
+              "weight": 1.731012881693122
+            },
+            {
+              "token": "ani",
+              "count": 16,
+              "weight": 1.0158303706379626
+            },
+            {
+              "token": "littl",
+              "count": 15,
+              "weight": 1.072822454385295
+            },
+            {
+              "token": "them",
+              "count": 15,
+              "weight": 1.0131526196817042
+            },
+            {
+              "token": "function",
+              "count": 14,
+              "weight": 1.5326632256769057
+            },
+            {
+              "token": "work",
+              "count": 14,
+              "weight": 1.0786684944978844
+            },
+            {
+              "token": "come",
+              "count": 13,
+              "weight": 1.034051594088082
+            },
+            {
+              "token": "probabl",
+              "count": 13,
+              "weight": 1.0718532950349395
+            },
+            {
+              "token": "did",
+              "count": 13,
+              "weight": 1.0675315381892274
+            },
+            {
+              "token": "down",
+              "count": 12,
+              "weight": 1.053374763877414
+            },
+            {
+              "token": "market",
+              "count": 11,
+              "weight": 1.412835808439303
+            },
+            {
+              "token": "user",
+              "count": 10,
+              "weight": 1.995700258256477
+            },
+            {
+              "token": "case",
+              "count": 10,
+              "weight": 1.0397465570929958
+            },
+            {
+              "token": "cost",
+              "count": 9,
+              "weight": 1.2571622354617968
+            },
+            {
+              "token": "option",
+              "count": 9,
+              "weight": 1.3996763327975559
+            },
+            {
+              "token": "whatev",
+              "count": 9,
+              "weight": 1.0984662224239372
+            },
+            {
+              "token": "talk",
+              "count": 9,
+              "weight": 1.1257775016798932
+            },
+            {
+              "token": "everybodi",
+              "count": 9,
+              "weight": 1.0902091007618107
+            },
+            {
+              "token": "file",
+              "count": 9,
+              "weight": 1.0050575260184555
+            }
+          ]
+        }
+      }
+    },
+    "whisper-large-v3-turbo": {
+      "predictions_sha256": "283dda2983e7d658e62eed46ffd40088f48f59d85f00e859083258ed47078f4f",
+      "official_baseline_wer_percent": 14.853215284249767,
+      "variants": {
+        "upstream": {
+          "weighted_errors": 1335.2142702854742,
+          "substitution_cost": 385.29320515388366,
+          "deletion_cost": 797.4247163401618,
+          "insertion_cost": 152.49634879142937,
+          "reference_weight": 8958.103604781229,
+          "token_errors": 1309,
+          "reference_words": 8584,
+          "reference_boosted_tokens": 1919,
+          "prediction_boosted_tokens": 1830,
+          "reference_oov_tokens": 121,
+          "prediction_oov_tokens": 138,
+          "hypothesis_words": 7947,
+          "weighted_wer_percent": 14.905099663871127,
+          "token_wer_percent": 15.249301025163094,
+          "boosted_reference_terms": [
+            {
+              "token": "but",
+              "count": 65,
+              "weight": 1.0389152092660026
+            },
+            {
+              "token": "they",
+              "count": 52,
+              "weight": 1.0223436890681734
+            },
+            {
+              "token": "buttons",
+              "count": 29,
+              "weight": 3.6381911860872385
+            },
+            {
+              "token": "which",
+              "count": 25,
+              "weight": 1.0151379656766575
+            },
+            {
+              "token": "remote",
+              "count": 24,
+              "weight": 4.0
+            },
+            {
+              "token": "when",
+              "count": 19,
+              "weight": 1.0083908169678477
+            },
+            {
+              "token": "out",
+              "count": 18,
+              "weight": 1.004755345868874
+            },
+            {
+              "token": "button",
+              "count": 17,
+              "weight": 2.6917203206297664
+            },
+            {
+              "token": "design",
+              "count": 17,
+              "weight": 1.9777698356738949
+            },
+            {
+              "token": "any",
+              "count": 16,
+              "weight": 1.0194738321381265
+            },
+            {
+              "token": "little",
+              "count": 15,
+              "weight": 1.0895830100897825
+            },
+            {
+              "token": "meeting",
+              "count": 15,
+              "weight": 1.4447078860350782
+            },
+            {
+              "token": "them",
+              "count": 15,
+              "weight": 1.0161797795968148
+            },
+            {
+              "token": "channel",
+              "count": 14,
+              "weight": 1.713122500148212
+            },
+            {
+              "token": "probably",
+              "count": 13,
+              "weight": 1.1030832512690607
+            },
+            {
+              "token": "did",
+              "count": 13,
+              "weight": 1.0830743555411624
+            },
+            {
+              "token": "control",
+              "count": 12,
+              "weight": 1.9312337131286528
+            },
+            {
+              "token": "down",
+              "count": 12,
+              "weight": 1.0653661867614765
+            },
+            {
+              "token": "time",
+              "count": 10,
+              "weight": 1.0069252601448195
+            },
+            {
+              "token": "market",
+              "count": 9,
+              "weight": 1.3130227688376064
+            },
+            {
+              "token": "come",
+              "count": 9,
+              "weight": 1.049850220719514
+            },
+            {
+              "token": "user",
+              "count": 9,
+              "weight": 2.1616419287399453
+            },
+            {
+              "token": "whatever",
+              "count": 9,
+              "weight": 1.1205232118033925
+            },
+            {
+              "token": "everybody",
+              "count": 9,
+              "weight": 1.1109713048255527
+            },
+            {
+              "token": "done",
+              "count": 8,
+              "weight": 1.05369129672778
+            },
+            {
+              "token": "send",
+              "count": 8,
+              "weight": 1.0450238416599107
+            },
+            {
+              "token": "board",
+              "count": 8,
+              "weight": 1.0885110465533703
+            },
+            {
+              "token": "than",
+              "count": 8,
+              "weight": 1.0015449128403684
+            },
+            {
+              "token": "doing",
+              "count": 8,
+              "weight": 1.091081813648109
+            },
+            {
+              "token": "having",
+              "count": 7,
+              "weight": 1.0560521228195399
+            }
+          ]
+        },
+        "stemmed": {
+          "weighted_errors": 1307.0655290778961,
+          "substitution_cost": 354.90237216214206,
+          "deletion_cost": 798.720788475568,
+          "insertion_cost": 153.4423684401866,
+          "reference_weight": 8968.938253718688,
+          "token_errors": 1284,
+          "reference_words": 8584,
+          "reference_boosted_tokens": 1844,
+          "prediction_boosted_tokens": 1753,
+          "reference_oov_tokens": 75,
+          "prediction_oov_tokens": 89,
+          "hypothesis_words": 7947,
+          "weighted_wer_percent": 14.573247045557066,
+          "token_wer_percent": 14.958061509785647,
+          "boosted_reference_terms": [
+            {
+              "token": "but",
+              "count": 65,
+              "weight": 1.0316343584439447
+            },
+            {
+              "token": "they",
+              "count": 52,
+              "weight": 1.0181717350818804
+            },
+            {
+              "token": "button",
+              "count": 46,
+              "weight": 4.0
+            },
+            {
+              "token": "remot",
+              "count": 27,
+              "weight": 3.423640752840487
+            },
+            {
+              "token": "which",
+              "count": 25,
+              "weight": 1.0123057241978106
+            },
+            {
+              "token": "meet",
+              "count": 25,
+              "weight": 1.2524569119558577
+            },
+            {
+              "token": "control",
+              "count": 24,
+              "weight": 1.7994285091603799
+            },
+            {
+              "token": "design",
+              "count": 21,
+              "weight": 1.5822895942007889
+            },
+            {
+              "token": "search",
+              "count": 20,
+              "weight": 1.0009846972810374
+            },
+            {
+              "token": "when",
+              "count": 19,
+              "weight": 1.0068209349661732
+            },
+            {
+              "token": "out",
+              "count": 18,
+              "weight": 1.0033566595907912
+            },
+            {
+              "token": "channel",
+              "count": 17,
+              "weight": 1.731012881693122
+            },
+            {
+              "token": "ani",
+              "count": 16,
+              "weight": 1.0158303706379626
+            },
+            {
+              "token": "littl",
+              "count": 15,
+              "weight": 1.072822454385295
+            },
+            {
+              "token": "them",
+              "count": 15,
+              "weight": 1.0131526196817042
+            },
+            {
+              "token": "function",
+              "count": 14,
+              "weight": 1.5326632256769057
+            },
+            {
+              "token": "work",
+              "count": 14,
+              "weight": 1.0786684944978844
+            },
+            {
+              "token": "come",
+              "count": 13,
+              "weight": 1.034051594088082
+            },
+            {
+              "token": "probabl",
+              "count": 13,
+              "weight": 1.0718532950349395
+            },
+            {
+              "token": "did",
+              "count": 13,
+              "weight": 1.0675315381892274
+            },
+            {
+              "token": "down",
+              "count": 12,
+              "weight": 1.053374763877414
+            },
+            {
+              "token": "market",
+              "count": 11,
+              "weight": 1.412835808439303
+            },
+            {
+              "token": "user",
+              "count": 10,
+              "weight": 1.995700258256477
+            },
+            {
+              "token": "case",
+              "count": 10,
+              "weight": 1.0397465570929958
+            },
+            {
+              "token": "cost",
+              "count": 9,
+              "weight": 1.2571622354617968
+            },
+            {
+              "token": "option",
+              "count": 9,
+              "weight": 1.3996763327975559
+            },
+            {
+              "token": "whatev",
+              "count": 9,
+              "weight": 1.0984662224239372
+            },
+            {
+              "token": "talk",
+              "count": 9,
+              "weight": 1.1257775016798932
+            },
+            {
+              "token": "everybodi",
+              "count": 9,
+              "weight": 1.0902091007618107
+            },
+            {
+              "token": "file",
+              "count": 9,
+              "weight": 1.0050575260184555
+            }
+          ]
+        }
+      }
+    },
+    "parakeet": {
+      "predictions_sha256": "92ddeb3e1de5906a6d344f779ff0510f68b91900ff76d6209623b99badb7f94a",
+      "official_baseline_wer_percent": 9.214818266542405,
+      "variants": {
+        "upstream": {
+          "weighted_errors": 847.1852337946573,
+          "substitution_cost": 385.63353345638876,
+          "deletion_cost": 247.8014778791375,
+          "insertion_cost": 213.750222459131,
+          "reference_weight": 8958.103604781229,
+          "token_errors": 828,
+          "reference_words": 8584,
+          "reference_boosted_tokens": 1919,
+          "prediction_boosted_tokens": 1897,
+          "reference_oov_tokens": 121,
+          "prediction_oov_tokens": 132,
+          "hypothesis_words": 8551,
+          "weighted_wer_percent": 9.457193968402946,
+          "token_wer_percent": 9.645852749301024,
+          "boosted_reference_terms": [
+            {
+              "token": "but",
+              "count": 65,
+              "weight": 1.0389152092660026
+            },
+            {
+              "token": "they",
+              "count": 52,
+              "weight": 1.0223436890681734
+            },
+            {
+              "token": "buttons",
+              "count": 29,
+              "weight": 3.6381911860872385
+            },
+            {
+              "token": "which",
+              "count": 25,
+              "weight": 1.0151379656766575
+            },
+            {
+              "token": "remote",
+              "count": 24,
+              "weight": 4.0
+            },
+            {
+              "token": "when",
+              "count": 19,
+              "weight": 1.0083908169678477
+            },
+            {
+              "token": "out",
+              "count": 18,
+              "weight": 1.004755345868874
+            },
+            {
+              "token": "button",
+              "count": 17,
+              "weight": 2.6917203206297664
+            },
+            {
+              "token": "design",
+              "count": 17,
+              "weight": 1.9777698356738949
+            },
+            {
+              "token": "any",
+              "count": 16,
+              "weight": 1.0194738321381265
+            },
+            {
+              "token": "little",
+              "count": 15,
+              "weight": 1.0895830100897825
+            },
+            {
+              "token": "meeting",
+              "count": 15,
+              "weight": 1.4447078860350782
+            },
+            {
+              "token": "them",
+              "count": 15,
+              "weight": 1.0161797795968148
+            },
+            {
+              "token": "channel",
+              "count": 14,
+              "weight": 1.713122500148212
+            },
+            {
+              "token": "probably",
+              "count": 13,
+              "weight": 1.1030832512690607
+            },
+            {
+              "token": "did",
+              "count": 13,
+              "weight": 1.0830743555411624
+            },
+            {
+              "token": "control",
+              "count": 12,
+              "weight": 1.9312337131286528
+            },
+            {
+              "token": "down",
+              "count": 12,
+              "weight": 1.0653661867614765
+            },
+            {
+              "token": "time",
+              "count": 10,
+              "weight": 1.0069252601448195
+            },
+            {
+              "token": "market",
+              "count": 9,
+              "weight": 1.3130227688376064
+            },
+            {
+              "token": "come",
+              "count": 9,
+              "weight": 1.049850220719514
+            },
+            {
+              "token": "user",
+              "count": 9,
+              "weight": 2.1616419287399453
+            },
+            {
+              "token": "whatever",
+              "count": 9,
+              "weight": 1.1205232118033925
+            },
+            {
+              "token": "everybody",
+              "count": 9,
+              "weight": 1.1109713048255527
+            },
+            {
+              "token": "done",
+              "count": 8,
+              "weight": 1.05369129672778
+            },
+            {
+              "token": "send",
+              "count": 8,
+              "weight": 1.0450238416599107
+            },
+            {
+              "token": "board",
+              "count": 8,
+              "weight": 1.0885110465533703
+            },
+            {
+              "token": "than",
+              "count": 8,
+              "weight": 1.0015449128403684
+            },
+            {
+              "token": "doing",
+              "count": 8,
+              "weight": 1.091081813648109
+            },
+            {
+              "token": "having",
+              "count": 7,
+              "weight": 1.0560521228195399
+            }
+          ]
+        },
+        "stemmed": {
+          "weighted_errors": 818.4382365737139,
+          "substitution_cost": 357.2534912271431,
+          "deletion_cost": 247.56248855218786,
+          "insertion_cost": 213.62225679438328,
+          "reference_weight": 8968.938253718688,
+          "token_errors": 804,
+          "reference_words": 8584,
+          "reference_boosted_tokens": 1844,
+          "prediction_boosted_tokens": 1825,
+          "reference_oov_tokens": 75,
+          "prediction_oov_tokens": 81,
+          "hypothesis_words": 8551,
+          "weighted_wer_percent": 9.125252214044112,
+          "token_wer_percent": 9.366262814538677,
+          "boosted_reference_terms": [
+            {
+              "token": "but",
+              "count": 65,
+              "weight": 1.0316343584439447
+            },
+            {
+              "token": "they",
+              "count": 52,
+              "weight": 1.0181717350818804
+            },
+            {
+              "token": "button",
+              "count": 46,
+              "weight": 4.0
+            },
+            {
+              "token": "remot",
+              "count": 27,
+              "weight": 3.423640752840487
+            },
+            {
+              "token": "which",
+              "count": 25,
+              "weight": 1.0123057241978106
+            },
+            {
+              "token": "meet",
+              "count": 25,
+              "weight": 1.2524569119558577
+            },
+            {
+              "token": "control",
+              "count": 24,
+              "weight": 1.7994285091603799
+            },
+            {
+              "token": "design",
+              "count": 21,
+              "weight": 1.5822895942007889
+            },
+            {
+              "token": "search",
+              "count": 20,
+              "weight": 1.0009846972810374
+            },
+            {
+              "token": "when",
+              "count": 19,
+              "weight": 1.0068209349661732
+            },
+            {
+              "token": "out",
+              "count": 18,
+              "weight": 1.0033566595907912
+            },
+            {
+              "token": "channel",
+              "count": 17,
+              "weight": 1.731012881693122
+            },
+            {
+              "token": "ani",
+              "count": 16,
+              "weight": 1.0158303706379626
+            },
+            {
+              "token": "littl",
+              "count": 15,
+              "weight": 1.072822454385295
+            },
+            {
+              "token": "them",
+              "count": 15,
+              "weight": 1.0131526196817042
+            },
+            {
+              "token": "function",
+              "count": 14,
+              "weight": 1.5326632256769057
+            },
+            {
+              "token": "work",
+              "count": 14,
+              "weight": 1.0786684944978844
+            },
+            {
+              "token": "come",
+              "count": 13,
+              "weight": 1.034051594088082
+            },
+            {
+              "token": "probabl",
+              "count": 13,
+              "weight": 1.0718532950349395
+            },
+            {
+              "token": "did",
+              "count": 13,
+              "weight": 1.0675315381892274
+            },
+            {
+              "token": "down",
+              "count": 12,
+              "weight": 1.053374763877414
+            },
+            {
+              "token": "market",
+              "count": 11,
+              "weight": 1.412835808439303
+            },
+            {
+              "token": "user",
+              "count": 10,
+              "weight": 1.995700258256477
+            },
+            {
+              "token": "case",
+              "count": 10,
+              "weight": 1.0397465570929958
+            },
+            {
+              "token": "cost",
+              "count": 9,
+              "weight": 1.2571622354617968
+            },
+            {
+              "token": "option",
+              "count": 9,
+              "weight": 1.3996763327975559
+            },
+            {
+              "token": "whatev",
+              "count": 9,
+              "weight": 1.0984662224239372
+            },
+            {
+              "token": "talk",
+              "count": 9,
+              "weight": 1.1257775016798932
+            },
+            {
+              "token": "everybodi",
+              "count": 9,
+              "weight": 1.0902091007618107
+            },
+            {
+              "token": "file",
+              "count": 9,
+              "weight": 1.0050575260184555
+            }
+          ]
+        }
+      }
+    }
+  }
+}

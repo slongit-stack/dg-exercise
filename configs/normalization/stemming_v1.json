@@ -1,0 +1,13 @@
+{
+  "version": "snowball-english-v1",
+  "package": "snowballstemmer",
+  "package_version": "3.0.1",
+  "language": "english",
+  "input": "Pinned upstream EnglishTextNormalizer output",
+  "token_policy": "Stem lowercase ASCII alphabetic tokens only; preserve all other tokens and token count",
+  "custom_compounds": false,
+  "stopword_removal": false,
+  "acronym_canonicalization": false,
+  "selection": "Fixed Snowball English algorithm agreed before pilot rescoring; no fitted parameters or test-derived exceptions",
+  "interpretation": "Exploratory search-matching policy; not a measured retrieval outcome"
+}
